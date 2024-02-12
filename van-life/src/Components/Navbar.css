@@ -1,0 +1,54 @@
+#bg {
+    background-image: url(src/assets/bg1.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: to make the background fixed */
+}
+.custom-button {
+    background-color: #ffead0;
+    transition: background-color 0.3s ease;
+  }
+  .about:hover{
+    text-decoration: underline;
+  }
+  
+  .custom-button:hover {
+    background-color: #e17654;
+    color: white;
+  }
+  .lux {
+    background-color: #ffead0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .lux:hover {
+    background-color: black;
+    color: white;
+  }
+  .rug{
+    background-color: #ffead0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rug:hover {
+    background-color: green;
+    color: white;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+
+@media (max-width:688px) {
+    #bg {
+        background-image: url(src/assets/bg1.png);
+        background-size: cover;
+        /* height: 80vh; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Optional: to make the background fixed */
+    }
+}    
