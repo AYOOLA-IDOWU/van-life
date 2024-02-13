@@ -1,8 +1,12 @@
 import React from 'react';
+import Footer from './Footer';
+import NavbarC from './NavbarC';
+import { Outlet } from 'react-router-dom';
 
-const List = () => {
+const HostVans = () => {
   return (
     <>
+    <NavbarC/>
       <div style={{ backgroundColor: '#fff7ed' }} className="p-4">
         <div className="row mt-4">
           <div className="col-md-3">
@@ -54,8 +58,10 @@ const List = () => {
           </div>
         </div>
       </div>
+      <Footer/>
+      {/* <Outlet/> */}
     </>
   );
 };
 
-export default List;
+export default HostVans;

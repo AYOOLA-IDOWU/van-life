@@ -5,11 +5,11 @@ import NavbarC from './NavbarC';
 import { Outlet } from 'react-router-dom';
 
 
-const Dashboard = () => {
+const Host = () => {
   return (
     <>
     <NavbarC/>
-    <div  style={{marginBottom: '120px'}}>
+    <div  style={{marginBottom: '180px'}}>
       <div className="row mt-4 w-100 container mx-4">
         <div className="col-md-2">
           <a href="" className="text-dark" >
@@ -34,7 +34,7 @@ const Dashboard = () => {
       </div>
 
       <div style={{ backgroundColor: '#ffead0' }} className="p-5">
-        <h1>WDashboard!</h1>
+        <h1>Dashboard!</h1>
 
         <div className="flex-container mt-5" style={{ display: 'flex', justifyContent: 'space-between' }}>
           <h5 className="col-md-8">Income last <a href="">30 days</a></h5>
@@ -91,4 +91,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default Host;
